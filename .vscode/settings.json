@@ -34,5 +34,8 @@
   "editor.quickSuggestions": {
     "comments": "on",
     "strings": "on"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
   }
 }
