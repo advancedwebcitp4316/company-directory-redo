@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import { useAuth } from './composables/useAuth'
-const {isAuthenticated} = useAuth()
+const { isAuthenticated } = useAuth()
+
 import HomePage from '@/views/HomePage.vue'
 import CardDetails from './views/CardDetails.vue'
 import LoginPage from './views/LoginPage.vue'
