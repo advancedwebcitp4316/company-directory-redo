@@ -28,7 +28,7 @@ router.beforeEach((to, _, next) => {
   if (to.meta.requiresAuth && !isAuthenticated.value) {
     // Redirect to the 'Login' route with a query parameter
     // indicating the original route's full path
-    next({ name: 'Login', query: { redirect: to.fullPath } })
+    next({ name: 'LoginPage', query: { redirect: to.fullPath } })
   } else {
     // Continue with the navigation if no authentication is required
     // or if the user is authenticated
