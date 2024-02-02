@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center gap-4">
+    <div class="flex justify-center gap-4 p-8">
         <button @click="prevPage" :disabled="activePage === 1"
             class="rounded-md bg-slate-100 p-2 font-medium text-slate-700 shadow-md">PREV</button>
 
